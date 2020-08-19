@@ -1962,3 +1962,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libts_detected_face_hal \
     libts_face_beautify_hal
+
+$(call inherit-product, vendor/xiaomi/ugg/ugg-vendor-*.mk)
